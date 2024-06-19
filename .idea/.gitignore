@@ -8,3 +8,68 @@
 /dataSources.local.xml
 # Zeppelin ignored files
 /ZeppelinRemoteNotebooks/
+
+
+### Athena ###
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+#.vscode/
+
+*.log
+
+### dockerfiles ###
+**/src/*.tar.gz
+
+### dynamodb-rsdk ###
+#.Rproj.user
+#.Rhistory
+#.RData
+#.Ruserdata
+
+### jmpark ###
+#_AwsSdkLog/
+#_Document
+#_Jupyter
+#/ec2/src/main/resources/vmware/
+#glue/boto3
+#ec2-config
+#ec2-eureka
+#ec2-gw
+#ec2-webflux
+#ec2/springdoc
+#ec2/_ignore
+#ec2/libs
+
+
+### kyjeon ###
+#maven
